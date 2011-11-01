@@ -132,6 +132,7 @@ DEPENDENCIES
   coffee-rails (~> 3.1.1)
   jquery-rails
   mysql2
+  nokogiri
   rails (= 3.1.1)
   rspec-rails
   sass-rails (~> 3.1.4)

@@ -4,3 +4,7 @@ log/*.log
 tmp/
 .sass-cache/
 /nbproject/private/
+/nokogiri/ruby/1.9.1/gems/railties-3.1.1/lib/rails/generators/rails/plugin_new/templates/app/controllers/%name%/
+/nokogiri/ruby/1.9.1/gems/railties-3.1.1/lib/rails/generators/rails/plugin_new/templates/app/helpers/%name%/
+/nokogiri/ruby/1.9.1/gems/railties-3.1.1/lib/rails/generators/rails/plugin_new/templates/app/views/layouts/%name%/
+/nokogiri/ruby/1.9.1/gems/railties-3.1.1/lib/rails/generators/rails/plugin_new/templates/lib/%name%/
