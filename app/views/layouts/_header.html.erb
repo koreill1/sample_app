@@ -1,8 +1,9 @@
- <%=  image_tag("/images/logo.png", :alt => "Sample App", :class => "round") %>
-        <nav class ="round">
-          <ul>
-            <li><%=link_to "Home", '/pages/home' %></li>
-            <li><%=link_to "Help", '/pages/help' %></li>
-            <li><%=link_to "Sign in", '#'%></li>
-          </ul>
-        </nav>
+<%logo =  image_tag("/images/logo.png", :alt => "Sample App", :class => "round") %>
+<%=link_to logo, root_path%>        
+<nav class ="round">
+  <ul>
+    <li><%=link_to "Home", root_path %></li>
+    <li><%=link_to "Help", help_path %></li>
+    <li><%=link_to "Sign in", '#'%></li>
+  </ul>
+</nav>
