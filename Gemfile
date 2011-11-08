@@ -40,6 +40,7 @@ end
 #to create spec_helper, add below and run:  rails generate rspec:install
 group :test, :development do
   gem 'rspec-rails'
+  #gem 'annotate-models'
 end
 
 #added for has_selector in spec
