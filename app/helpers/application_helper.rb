@@ -1,6 +1,6 @@
 module ApplicationHelper
   def logo
-    #fill in
+    image_tag("/images/logo.png", :alt=> "Sample App", :class=>"round")
   end
   
   def title

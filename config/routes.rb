@@ -9,7 +9,7 @@ SampleApp::Application.routes.draw do
   root :to => 'pages#home'
   match '/signup', :to=> 'users#new'
   match '/signin', :to=> 'sessions#new'
-  match '/signout', :to=> 'sessions#destory'
+  match '/signout', :to=> 'sessions#destroy'
   
   
   get "pages/home"
