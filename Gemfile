@@ -42,6 +42,8 @@ end
 group :test, :development do
   gem 'rspec-rails'
   #gem 'annotate-models'
+  gem 'faker'
+  gem 'will_paginate'
 end
 
 #added for has_selector in spec
